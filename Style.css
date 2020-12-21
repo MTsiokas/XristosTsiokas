@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
 body{
     background-color:darkslateblue;
     font-size:1.1em;
-    
+    font-family: "Roboto", sans-serif;
 }
 
 .contents{
@@ -30,7 +32,8 @@ h1{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
+    margin-top:10px;
 }
 
 .topnav a:hover {
