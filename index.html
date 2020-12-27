@@ -1,110 +1,117 @@
-<!DOCTYPE html>
-
-<html>
-
+<!doctype html>
+<html lang="en">
     <head>
-        <link rel="stylesheet" type="text/css" href="Style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <!--        <link rel="stylesheet" type="text/css" href="Style.css">-->
+
+        <title>Hello, world!</title>
+
         <style>
-            .contents{
-                height:880px;
-            }
-
-            .info{
-                width:50%;
-                margin-top:30px;
-                float:right;
-                margin-right: 150px;
-            }
-            ul,li{
-                display: block;
+            .til{
                 text-decoration: underline;
             }
-            .logo{
-                margin-right: 0px;
-                display: block;
+            .jumbotron{
+                /*                background-color: aqua;*/
+            }
+            body {
+                min-height: 75rem;
+                padding-top: 2.5rem;
             }
 
-            .days{
-                margin-top: 120px;
-                margin-left:30px
-            }
-            img {
-                border-radius: 50%;
-            }
-            .contact{
-                text-decoration: underline;
-                margin-left: 80px;
-                margin-top:350px;
-            }
-            .p2{
-                margin-top: -35px;
-                margin-left: 550px;
-            }
-            .p1{
-                padding-top: 15px;
-            }
         </style>
-
     </head>
-
     <body>
 
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <a class="navbar-brand">Ospria ryzi Tsiokas Xristos</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="navbar">
-            <a class="active" href="#home">Αρχική</a>
-            <div class="dropdown">
-                <button class="dropbtn">Προιοντα
-                    <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                    <a href="products1.html">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
-                </div>
-            </div>
-            <a href="ViPho.html">Videos/Photos</a>
-            <a href="Contact.html">Επικινονια</a>
-
-            <h2 class="tit">Ospria ryzi Tsiokas Xristos </h2>
-        </div>
-
-        <div class="contents">
-            <div class="contactInfo">
-                <h2></h2>
-            </div> 
-
-            <div class="info">
-                <p>
-                    Οικογένεια Τσιόκα Χρήστου.
-                    Με παράδοση στο Ρύζι και τα Όσπρια εδώ και αρκετές δεκαετίες.
-                    Από τον παππού Χρήστο στα βαλτώδη χώματα της Βαλμάδας στην καλλιέργεια του Ρυζιού και τα βραστερά της Φασόλια, από το 1960.
-                    Στην συνέχεια 1975 με τον πατέρα Κωνσταντίνο, με την παραγωγή εξαιρετικών ποικιλιών Ρυζιού, μέχρι την εμπορία όσπριων από επιλεγμένους παραγωγούς της Μακεδονίας Θράκης και Θεσσαλίας. Η ποιότητα η καλή τιμή και η εξυπηρέτηση των πελατών μας με συνεχή βελτίωση των μέσων παραγωγής και διάθεσης, των προϊόντων, είναι ο βασικός άξονας λειτουργιάς της συνέχειας με τον υιό Χρήστο και σύζηγο Καλλιόπη(Πόπη).
-                </p>
-
-                <img src="photos/IMG_20200628_094614.jpg" width="396px" class="p1">
-                <img src="photos/EFFECTS.jpg" height="293" width="396" class="p2">
-
-            </div>
-
-
-            <div class="days">
-                <h2>Λαικές Αγορές θεσσαλονίκης</h2>
-
-                <ul>
-                    <li>Δευτέρα: Καραισκάκι</li>
-                    <li> Τρίτι: Κ. Ηλιούπολη </li>
-                    <li> Τετάρτι: Παύλου-Μελά </li>
-                    <li> Πέμπτι: Κανάρη </li>
-                    <li> Παρασκευή Σταυρούπολη</li>
-                    <li> Σάββατο: Νεάπολη</li>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ViPho.html">Videos/Photos <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Products
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="products1.html">Rizia</a>
+                            <a class="dropdown-item" href="#">Ospria</a>
+                            <a class="dropdown-item" href="#">Aleura</a>
+                            <a class="dropdown-item" href="#">Dimitriaka</a>
+                            <a class="dropdown-item" href="#">Paradosiaka  Zimarika</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="testContact.html">Contact</a>
+                    </li>
                 </ul>
             </div>
-
-            <h4 class="contact">ΤΗΛ: 6932863106</h4>
+        </nav>
+        <div class="jumbotron">
+            <div class="container">
+                <h5>Οικογένεια Τσιόκα Χρήστου. Με παράδοση στο Ρύζι και τα Όσπρια εδώ και αρκετές δεκαετίες. Από τον παππού Χρήστο στα βαλτώδη χώματα της Βαλμάδας στην καλλιέργεια του Ρυζιού και τα βραστερά της Φασόλια, από το 1960. Στην συνέχεια 1975 με τον πατέρα Κωνσταντίνο, με την παραγωγή εξαιρετικών ποικιλιών Ρυζιού, μέχρι την εμπορία όσπριων από επιλεγμένους παραγωγούς της Μακεδονίας Θράκης και Θεσσαλίας. Η ποιότητα η καλή τιμή και η εξυπηρέτηση των πελατών μας με συνεχή βελτίωση των μέσων παραγωγής και διάθεσης, των προϊόντων, είναι ο βασικός άξονας λειτουργιάς της συνέχειας με τον υιό Χρήστο και σύζηγο Καλλιόπη(Πόπη).
+                </h5>
+                <div class="col">
+                    <p class="h5 text-center">Λαικές Αγορές θεσσαλονίκης</p>
+                    <div class="d-flex">
+                        <ul class="list-inline mx-auto justify-content-center">
+                            <li class="list-group-item bg-transparent"> Δευτέρα: Καραισκάκι </li>
+                            <li class="list-group-item bg-transparent">Τρίτι: Κ. Ηλιούπολη
+                            </li>
+                            <li class="list-group-item bg-transparent">Τετάρτι: Παύλου-Μελά
+                            </li>
+                            <li class="list-group-item bg-transparent">Πέμπτι: Κανάρη
+                            </li>
+                            <li class="list-group-item bg-transparent">Παρασκευή Σταυρούπολη
+                            </li>
+                            <li class="list-group-item bg-transparent">Σάββατο: Νεάπολη
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="h5 text-center til">ΤΗΛ: 6932863106</p>                        
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <!-- Example row of columns -->
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="photos/IMG_20200628_094614.jpg" width="350">
+                </div>
+                <div class="col-md-4">
+                    <img src="photos/20201221_165255-COLLAGE.jpg" width="350">
+                </div>
+                <div class="col-md-4">
+                    <img src="photos/IMG_20190321_183741.jpg" width="350">
+                </div>
+                <div class="col-md-4">
+                    <img src="photos/EFFECTS.jpg" width="350">                         
+                </div>
+            </div>
         </div>
 
+
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </body>
+
 
 
 </html>
