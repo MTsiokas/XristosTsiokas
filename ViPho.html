@@ -18,10 +18,11 @@
                 margin-right: auto;
             }
             .video{
-                margin-top: 120px;
-                margin-right: auto;
-                margin-left: 750px;
-                margin-left: 750px;
+                margin-top: 400px;
+                position: absolute;
+                right:50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
                 height:533px
             }
 
@@ -107,9 +108,9 @@
                 </div>
             </div>
             <div class="col">
-                <div class="embed">
-                    <iframe class="embed-responsive-item video" src="photos/VID_20201212_123821.mp4" allowfullscreen frameborder="0"></iframe>
-                </div>
+                <video width="320" height="240" controls class="video">
+                    <source src="photos/VID_20201212_123821.mp4" type="video/mp4">
+                </video>
             </div>
         </div>
 
